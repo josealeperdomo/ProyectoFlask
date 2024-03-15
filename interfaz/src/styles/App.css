@@ -1,0 +1,20 @@
+
+.libro img{
+  height: 452px;
+  width: 295px;
+}
+
+.libros{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

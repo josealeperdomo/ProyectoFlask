@@ -1,0 +1,18 @@
+.visible{
+    display: flex;
+}
+
+.oculto{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borrar{
+    background-color: red;
+}

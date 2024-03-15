@@ -1,0 +1,9 @@
+.addBook{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addBook input{
+    padding: 5px;
+}

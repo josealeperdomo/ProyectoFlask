@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+
+header img{
+    width: 80px;
+}
+
+header ul li{
+    list-style: none;
+}
