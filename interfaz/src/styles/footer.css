@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+}
+
+footer a img{
+    width: 60px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}

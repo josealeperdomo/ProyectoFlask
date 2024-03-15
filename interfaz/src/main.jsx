@@ -8,6 +8,7 @@ import Libros from './pages/libros.jsx'
 import { Libro } from './pages/Libro.jsx'
 import { AgregarDatos } from './pages/AgregarDatos.jsx'
 import { Datos } from './pages/Datos.jsx'
+import { Footer } from './components/Footer.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/agregar_datos' element={<AgregarDatos/>}/>
         <Route path='/datos' element={<Datos/>}/>
       </Routes> 
-      
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>,
 )
